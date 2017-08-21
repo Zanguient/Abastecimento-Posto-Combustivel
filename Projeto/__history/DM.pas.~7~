@@ -1,0 +1,39 @@
+unit DM;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.SqlExpr, Data.DBXFirebird,
+  Data.FMTBcd, Datasnap.DBClient, Datasnap.Provider;
+
+type
+  TDataModule1 = class(TDataModule)
+    SQLConnection: TSQLConnection;
+    SQLDataSet_ABASTECIMENTOS: TSQLDataSet;
+    DataSetProvider_ABASTECIMENTOS: TDataSetProvider;
+    ClientDataSet_ABASTECIMENTOS: TClientDataSet;
+    SQLDataSet_ABASTECIMENTOSABASTECIMENTO: TIntegerField;
+    SQLDataSet_ABASTECIMENTOSDATA: TDateField;
+    SQLDataSet_ABASTECIMENTOSBOMBA: TIntegerField;
+    SQLDataSet_ABASTECIMENTOSVALOR_BRUTO: TFMTBCDField;
+    SQLDataSet_ABASTECIMENTOSIMPOSTO: TFMTBCDField;
+    SQLDataSet_ABASTECIMENTOSVALOR_LIQUIDO: TFMTBCDField;
+    SQLDataSetBOMBA: TSQLDataSet;
+    DataSetProviderBOMBA: TDataSetProvider;
+    ClientDataSetBOMBA: TClientDataSet;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

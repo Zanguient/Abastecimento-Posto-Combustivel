@@ -1,0 +1,55 @@
+unit URelatorio;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, frxClass, frxDBSet, Vcl.StdCtrls,
+  Vcl.Mask;
+
+type
+  TFormRelatorio = class(TForm)
+    frxRelatorios: TfrxReport;
+    frxDBDatasetAbastecimentos: TfrxDBDataset;
+    lbDataInicial: TLabel;
+    lbDataFinal: TLabel;
+    mksEdtDataInicial: TMaskEdit;
+    mskEdtDataFinal: TMaskEdit;
+    BtExecutar: TButton;
+    btExecutarFortesReport: TButton;
+    procedure BtExecutarClick(Sender: TObject);
+    procedure btExecutarFortesReportClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormRelatorio: TFormRelatorio;
+
+implementation
+
+{$R *.dfm}
+
+uses DM, UFortesRelatorio;
+
+procedure TFormRelatorio.BtExecutarClick(Sender: TObject);
+var
+  path : string;
+begin
+  DataModule1.SQLQueryRelatorio.ParamByName('DATA_INICIAL').Value := mksEdtDataInicial.Text;
+  DataModule1.SQLQueryRelatorio.ParamByName('DATA_FINAL').Value := StrToDate(mskEdtDataFinal.Text);
+
+  path := ExtractFilePath(Application.ExeName);
+  frxRelatorios.LoadFromFile(path+'RelatorioAbastecimento.fr3');
+  frxRelatorios.ShowReport();
+end;
+
+procedure TFormRelatorio.btExecutarFortesReportClick(Sender: TObject);
+begin
+  Application.CreateForm(TFormFortesRelatorio);
+  FormFortesRelatorio.RLReport1.Preview;
+end;
+
+end.

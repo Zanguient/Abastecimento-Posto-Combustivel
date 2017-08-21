@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/08/19 13:41:31.000.725,=C:\Users\Araujo\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/19 13:45:38.000.502,C:\Users\Araujo\Documents\RAD Studio\Projects\Unit1.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UPrincipal.dfm</Transaction>
+    <Transaction>2017/08/19 13:45:38.000.502,C:\Users\Araujo\Documents\RAD Studio\Projects\Unit1.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UPrincipal.pas</Transaction>
+    <Transaction>2017/08/19 13:46:55.000.825,C:\Users\Araujo\Documents\RAD Studio\Projects\Project1.dproj=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\GERENCIAMENTO_COMBUSTIVEL.dproj</Transaction>
+    <Transaction>2017/08/19 14:00:33.000.198,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/19 14:02:05.000.401,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UAbastecimento.dfm</Transaction>
+    <Transaction>2017/08/19 14:02:05.000.401,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UAbastecimento.pas</Transaction>
+    <Transaction>2017/08/19 14:09:41.000.552,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/19 14:10:13.000.561,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\DM.pas</Transaction>
+    <Transaction>2017/08/19 14:10:13.000.561,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\DM.dfm</Transaction>
+    <Transaction>2017/08/19 22:18:35.000.166,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/19 22:22:22.000.434,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\URelatorio.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/19 22:22:22.000.434,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\URelatorio.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2017/08/20 15:42:10.000.351,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 16:48:55.000.239,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 16:51:59.000.933,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UFortesRelatorio.dfm</Transaction>
+    <Transaction>2017/08/20 16:51:59.000.933,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UFortesRelatorio.pas</Transaction>
+    <Transaction>2017/08/20 21:10:45.022,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 21:11:57.185,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UFormRelatorioFortes.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 21:11:57.185,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UFormRelatorioFortes.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2017/08/20 21:53:11.258,=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 22:02:59.524,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UAbastecimentosConsulta.pas=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 22:02:59.524,F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\UAbastecimentosConsulta.dfm=F:\DESENVOLVIMENTO\Delphi\Projetos\Outros\Projeto - Abastecimento Posto Combustivel\Projeto\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
